@@ -24,8 +24,12 @@ SECRET_KEY = 'django-insecure-dvuml#%_4oqtyv2cwgn@z86&9^j1trcmyq_baxr6mv%t+r7l-c
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [] #if debug true then keep it blank
+# ALLOWED_HOSTS = ['.localhost','127.0.0.1'] #blank means
+# ALLOWED_HOSTS = ['.raysonline.in'] #'admin.raysonline.in', 'www.raysonline.in', 'raysonline.in' open on all subdomain of raysonline.in
+# ALLOWED_HOSTS = ['*'] #open on all
 
 
 # Application definition
