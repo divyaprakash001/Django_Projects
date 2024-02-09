@@ -11,3 +11,10 @@ def intern(request):
 def application(request):
     return render(request,'development.html')
 
+def show(request):
+    p = {
+        'name':'rohit',
+        'age': 45
+    }
+    return render(request,'vartest.html',p)
+

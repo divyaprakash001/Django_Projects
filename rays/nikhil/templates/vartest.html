@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {% with a=20 b=100 %}
+    {% if a > b %}
+    <h1>value of a {{a}}</h1>
+    {% else %}
+    <h2>value of b {{b}}</h2>
+    {% endif %}
+    {% endwith %}
+    {{name}}
+</body>
+
+</html>
